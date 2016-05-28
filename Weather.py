@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
 """
 Created on Thu Oct 15 12:43:54 2015
@@ -28,7 +28,7 @@ forecaster = owm.three_hours_forecast(location)
 forecast = forecaster.get_forecast()
 location = observation.get_location().get_name()
 
-print('')
+print ('')
 print ('Current weather in %s:' %(location))
 print ('Temperature: %.1f degrees celsius' %(temp))
 print ('Sky: %s' %(status))
