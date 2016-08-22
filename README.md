@@ -5,3 +5,7 @@ As default it informs about the weather in Tampere, Finland.
 To get information from another location use the parameter --location, -l <Other location>. 
 Example:
 Weather.py -l Copenhagen
+
+
+Dependencies:
+ * https://github.com/csparpa/pyowm
